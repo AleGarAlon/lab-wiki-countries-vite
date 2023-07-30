@@ -7,8 +7,7 @@ import { } from 'react-router-dom'
 function CountryDetails() {
     const params = useParams()
     const [country, setCountry] = useState({})
-    const [searchParams, setSearchParams] = useSearchParams()
-    const [isLoading, setIsLoading] = useState(true)
+   
     
     console.log(params.countryId)
     
