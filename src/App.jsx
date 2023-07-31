@@ -8,17 +8,6 @@ import axios from 'axios';
 
 function App() {
 
- 
- /*const getAllCountries = (async ()=>{
-  const response = await axios.get(`${urlAPI}/countries`)
-  return response.data
- }) */
-
- /*const getOneCountry = (async (alpha3Code)=>{
-  const response = await axios.get(`${urlAPI}/countries/${alpha3Code}`)
-  return response.data
- }) */
-
   return (
     <div className="App">
       <Navbar />

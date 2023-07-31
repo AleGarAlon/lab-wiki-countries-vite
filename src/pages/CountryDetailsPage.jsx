@@ -19,8 +19,7 @@ function CountryDetails() {
         }
     oneCountry()
 },[params])
-
-   
+ 
     
     return( 
     <>
@@ -31,6 +30,7 @@ function CountryDetails() {
     <img src={`https://flagpedia.net/data/flags/icon/72x54/${country.alpha2Code.toLowerCase()}.png`} alt="" />
     <p>Capital: {country.capital[0]}</p>
     <p>Area: {country.area}</p>
+    
     {country.borders.map(border => {
             return (
           <div key={border}>
